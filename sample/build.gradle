@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "com.capitalone.easyscreenshots.sample"
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //Compile
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.jakewharton.timber:timber:4.5.1'
+
+    //JVM Tests
+    testImplementation 'junit:junit:4.12'
+
+    //Android Test
+    androidTestImplementation project(':easy-screenshots-library')
+    androidTestImplementation "com.android.support.test:runner:1.0.1"
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    // Test Butler - https://github.com/linkedin/test-butler
+    androidTestImplementation 'com.linkedin.testbutler:test-butler-library:1.3.1'
+}

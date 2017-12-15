@@ -1,0 +1,11 @@
+<resources>
+    <string name="submit">Enviar</string>
+    <string name="true_str">¡Es verdad!</string>
+    <string name="answer">Responder</string>
+    <string name="correct">Correcto</string>
+    <string name="incorrect">Incorrecto</string>
+    <string name="start_quiz">Empezar Juego</string>
+    <string name="final_score">Puntuación Final</string>
+    <string name="false_str">Falso</string>
+    <string name="text_continue">Continuar</string>
+</resources>
