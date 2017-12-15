@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+apply from: '../dependencies.gradle'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion versions.buildTools
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    //Annotations
+    implementation libs.supportAnnotations
+
+    //ESPRESSO
+    implementation libs.espressoCore
+
+    // Screenshots in Spoon Reports
+    implementation libs.falcon
+
+    //JVM Tests
+    testImplementation libs.junit
+    testImplementation("org.mockito:mockito-core:${versions.mockito}")
+    testImplementation("org.powermock:powermock-api-mockito:${versions.powermock}")
+    testImplementation("org.powermock:powermock-module-junit4:${versions.powermock}")
+    testImplementation("org.powermock:powermock-reflect:${versions.powermock}")
+    testImplementation("org.assertj:assertj-core:${versions.assertj}")
+}

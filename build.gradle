@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: 'dependencies.gradle'
+
+buildscript {
+    // Gradle will not find vars defined in an external file when referring to them
+    // in the buildscript block, unless you link it from the buildscript block, too.
+    apply from: 'dependencies.gradle'
+
+    repositories {
+        jcenter()
+        google()
+        flatDir { dirs 'libs' }
+    }
+    dependencies {
+        classpath gradlePlugins.android
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        flatDir { dirs 'libs' }
+    }
+}
+
+task clean(type: Delete) {
+    delete 'artifactory'
+}

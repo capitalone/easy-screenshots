@@ -1,0 +1,6 @@
+build-tools;26.0.2
+platforms;android-26
+extras;android;m2repository
+extras;google;m2repository
+extras;google;google_play_services
+system-images;android-23;google_apis;x86
