@@ -22,7 +22,7 @@ android {
 
 dependencies {
     //Compile
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'com.jakewharton.timber:timber:4.5.1'
 
     //JVM Tests
@@ -30,7 +30,8 @@ dependencies {
 
     //Android Test
     androidTestImplementation project(':easy-screenshots-library')
-    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'androidx.annotation', module: 'annotations'
     })
