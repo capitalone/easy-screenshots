@@ -17,9 +17,9 @@
 package com.capitalone.easyscreenshots.fileproviders;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.espresso.Espresso;
+import androidx.annotation.NonNull;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.espresso.Espresso;
 import android.util.Log;
 
 import org.junit.Before;

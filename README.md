@@ -5,7 +5,7 @@ Android Instrumentation Test Screenshots made Easy.
 
 ## 1) Add Gradle Dependencies:
 
-`androidTestCompile 'com.capitalone.easyscreenshots:easyscreenshots:1.0.0'`
+`androidTestCompile 'com.capitalone.easyscreenshots:easyscreenshots:1.1.0'`
 
 ## 2) Take Screenshots
 

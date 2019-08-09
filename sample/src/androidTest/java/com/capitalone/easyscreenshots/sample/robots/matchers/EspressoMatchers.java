@@ -25,8 +25,8 @@ import org.hamcrest.Matchers;
 import org.hamcrest.TypeSafeMatcher;
 
 
-import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
-import static android.support.test.espresso.matcher.ViewMatchers.isDescendantOfA;
+import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
+import static androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA;
 import static org.hamcrest.Matchers.is;
 
 public class EspressoMatchers {

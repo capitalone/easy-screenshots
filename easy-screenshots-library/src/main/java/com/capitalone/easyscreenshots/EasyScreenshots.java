@@ -16,9 +16,10 @@
  */
 package com.capitalone.easyscreenshots;
 
-import android.support.annotation.NonNull;
-import android.support.test.espresso.Espresso;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
+import androidx.test.espresso.Espresso;
 
 import com.capitalone.easyscreenshots.config.EasyScreenshotsConfig;
 import com.capitalone.easyscreenshots.config.EasyScreenshotsConfigProvider;

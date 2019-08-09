@@ -17,8 +17,8 @@
 package com.capitalone.easyscreenshots.config;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.test.InstrumentationRegistry;
+import androidx.annotation.Nullable;
+import androidx.test.InstrumentationRegistry;
 
 import com.capitalone.easyscreenshots.ScreenshotPolicy;
 

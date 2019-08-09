@@ -1,6 +1,6 @@
 ext {
     versions = [
-            espresso: '3.0.1',
+            espresso: '3.1.0',
             falcon: '1.0.4',
             supportLibrary: '26.1.0',
             buildTools: '28.0.3',
@@ -16,8 +16,8 @@ ext {
     ]
 
     libs = [
-            supportAnnotations: "com.android.support:support-annotations:${versions.supportLibrary}",
-            espressoCore: "com.android.support.test.espresso:espresso-core:${versions.espresso}",
+            supportAnnotations: 'androidx.annotation:annotation:1.0.0',
+            espressoCore: "androidx.test.espresso:espresso-core:${versions.espresso}",
             falcon: "com.jraska:falcon:${versions.falcon}",
             junit: "junit:junit:${versions.junit}"
     ]

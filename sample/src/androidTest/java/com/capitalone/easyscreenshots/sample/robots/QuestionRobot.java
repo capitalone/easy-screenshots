@@ -25,8 +25,8 @@ import com.capitalone.easyscreenshots.sample.model.TrueFalseQuestion;
 import org.hamcrest.Matcher;
 
 
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static com.capitalone.easyscreenshots.EasyScreenshots.takeScreenshot;
 import static com.capitalone.easyscreenshots.sample.robots.util.EspressoHelpers.assertDisplayed;
 import static com.capitalone.easyscreenshots.sample.robots.util.EspressoHelpers.assertTextShown;

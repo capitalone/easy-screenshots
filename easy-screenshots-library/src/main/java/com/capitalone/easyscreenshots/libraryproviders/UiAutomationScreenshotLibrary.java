@@ -18,8 +18,8 @@ package com.capitalone.easyscreenshots.libraryproviders;
 
 import android.graphics.Bitmap;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
-import android.support.test.InstrumentationRegistry;
+import androidx.annotation.RequiresApi;
+import androidx.test.InstrumentationRegistry;
 
 import com.capitalone.easyscreenshots.EasyScreenshots;
 

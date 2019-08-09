@@ -16,11 +16,12 @@
  */
 package com.capitalone.easyscreenshots.espresso;
 
-import android.support.test.InstrumentationRegistry;
-import android.support.test.espresso.FailureHandler;
-import android.support.test.espresso.base.DefaultFailureHandler;
 import android.util.Log;
 import android.view.View;
+
+import androidx.test.InstrumentationRegistry;
+import androidx.test.espresso.FailureHandler;
+import androidx.test.espresso.base.DefaultFailureHandler;
 
 import com.capitalone.easyscreenshots.EasyScreenshots;
 
