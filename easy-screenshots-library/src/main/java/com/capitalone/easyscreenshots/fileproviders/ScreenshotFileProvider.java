@@ -16,7 +16,7 @@
  */
 package com.capitalone.easyscreenshots.fileproviders;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.capitalone.easyscreenshots.utils.StackTraceElementLocator;
 

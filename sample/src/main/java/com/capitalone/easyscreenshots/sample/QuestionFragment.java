@@ -17,8 +17,8 @@
 package com.capitalone.easyscreenshots.sample;
 
 import android.content.DialogInterface;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AlertDialog;
 
 import com.capitalone.easyscreenshots.sample.model.Question;
 

@@ -17,12 +17,12 @@
 package com.capitalone.easyscreenshots.sample.robots.viewactions;
 
 import android.graphics.Rect;
-import android.support.test.espresso.PerformException;
-import android.support.test.espresso.UiController;
-import android.support.test.espresso.ViewAction;
-import android.support.test.espresso.matcher.ViewMatchers.Visibility;
-import android.support.test.espresso.util.HumanReadables;
-import android.support.v4.widget.NestedScrollView;
+import androidx.test.espresso.PerformException;
+import androidx.test.espresso.UiController;
+import androidx.test.espresso.ViewAction;
+import androidx.test.espresso.matcher.ViewMatchers.Visibility;
+import androidx.test.espresso.util.HumanReadables;
+import androidx.core.widget.NestedScrollView;
 import android.util.Log;
 import android.view.View;
 import android.widget.HorizontalScrollView;
@@ -31,10 +31,10 @@ import android.widget.ScrollView;
 import org.hamcrest.Matcher;
 
 
-import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
-import static android.support.test.espresso.matcher.ViewMatchers.isDescendantOfA;
-import static android.support.test.espresso.matcher.ViewMatchers.isDisplayingAtLeast;
-import static android.support.test.espresso.matcher.ViewMatchers.withEffectiveVisibility;
+import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
+import static androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayingAtLeast;
+import static androidx.test.espresso.matcher.ViewMatchers.withEffectiveVisibility;
 import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.anyOf;
 
@@ -45,7 +45,7 @@ import static org.hamcrest.Matchers.anyOf;
  *
  * Created BetterScrollToAction because normal ScrollToAction doesn't support android.support.v4.widget.NestedScrollView
  *
- * @see android.support.test.espresso.action.ScrollToAction
+ * @see androidx.test.espresso.action.ScrollToAction
  */
 public class BetterScrollToAction implements ViewAction {
     private static final String TAG = BetterScrollToAction.class.getSimpleName();

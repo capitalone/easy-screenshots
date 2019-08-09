@@ -20,8 +20,8 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.DrawableRes;
-import android.support.v7.view.menu.ActionMenuItemView;
+import androidx.annotation.DrawableRes;
+import androidx.appcompat.view.menu.ActionMenuItemView;
 import android.view.View;
 import android.widget.ImageView;
 

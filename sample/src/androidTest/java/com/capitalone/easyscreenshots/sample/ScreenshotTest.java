@@ -17,7 +17,7 @@
 package com.capitalone.easyscreenshots.sample;
 
 import android.Manifest;
-import android.support.test.rule.GrantPermissionRule;
+import androidx.test.rule.GrantPermissionRule;
 
 import org.junit.Rule;
 

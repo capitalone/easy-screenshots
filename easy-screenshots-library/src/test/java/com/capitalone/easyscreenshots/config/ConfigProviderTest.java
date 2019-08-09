@@ -18,8 +18,8 @@ package com.capitalone.easyscreenshots.config;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.espresso.Espresso;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.espresso.Espresso;
 import android.util.Log;
 
 import com.capitalone.easyscreenshots.ScreenshotPolicy;

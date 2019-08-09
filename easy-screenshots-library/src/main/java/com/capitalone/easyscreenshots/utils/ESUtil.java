@@ -17,13 +17,13 @@
 package com.capitalone.easyscreenshots.utils;
 
 import android.app.Activity;
-import android.support.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
+import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
 
 import java.util.Collection;
 
 
-import static android.support.test.InstrumentationRegistry.getInstrumentation;
-import static android.support.test.runner.lifecycle.Stage.RESUMED;
+import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
+import static androidx.test.runner.lifecycle.Stage.RESUMED;
 import static com.capitalone.easyscreenshots.EasyScreenshots.log;
 
 /**

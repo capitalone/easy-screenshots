@@ -17,9 +17,9 @@
 package com.capitalone.easyscreenshots.sample.robots;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.espresso.Espresso;
-import android.support.v7.view.menu.ListMenuItemView;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.espresso.Espresso;
+import androidx.appcompat.view.menu.ListMenuItemView;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
@@ -29,12 +29,12 @@ import com.capitalone.easyscreenshots.sample.robots.util.EspressoHelpers;
 import org.hamcrest.Matcher;
 
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.pressKey;
-import static android.support.test.espresso.matcher.ViewMatchers.hasFocus;
-import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
-import static android.support.test.espresso.matcher.ViewMatchers.isDescendantOfA;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.pressKey;
+import static androidx.test.espresso.matcher.ViewMatchers.hasFocus;
+import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
+import static androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static com.capitalone.easyscreenshots.EasyScreenshots.takeScreenshot;
 import static org.hamcrest.Matchers.allOf;
 

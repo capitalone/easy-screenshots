@@ -16,8 +16,8 @@
  */
 package com.capitalone.easyscreenshots.sample;
 
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import com.capitalone.easyscreenshots.sample.robots.FinalScoreRobot;
 import com.capitalone.easyscreenshots.sample.robots.HomeRobot;

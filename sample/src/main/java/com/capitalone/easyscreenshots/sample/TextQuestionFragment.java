@@ -17,9 +17,9 @@
 package com.capitalone.easyscreenshots.sample;
 
 import android.os.Bundle;
-import android.support.v7.widget.AppCompatButton;
-import android.support.v7.widget.AppCompatEditText;
-import android.support.v7.widget.AppCompatTextView;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatTextView;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
